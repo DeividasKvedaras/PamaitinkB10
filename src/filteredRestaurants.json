@@ -12,6 +12,7 @@
         "score": 9
       },
       "short_description": "Greito maisto restoranas",
+      "slug": "jammi-tauro-kalnas",
       "tags": [
         "mėsainiai",
         "mėsainiai",
@@ -32,6 +33,7 @@
         "score": 9.2
       },
       "short_description": "Sushi masters - skonis, kuris nukels Jus arčiau Rytų",
+      "slug": "sushi-masters-vilniaus-g",
       "tags": [
         "sušiai",
         "japoniška",
@@ -52,6 +54,7 @@
         "score": 9.2
       },
       "short_description": "Ukrainietiška virtuvė || Šis restoranas priklauso ir jį valdo UAB Ukrainietiški patiekalai, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "slug": "borsch",
       "tags": [
         "sriubos",
         "koldūnai"
@@ -71,6 +74,7 @@
         "score": 9
       },
       "short_description": "Gurmaniški sušiai. Neišragautų skonių istorija",
+      "slug": "sushi-lounge-dominikonu-g",
       "tags": [
         "azijietiška",
         "japoniška",
@@ -91,6 +95,7 @@
         "score": 9.2
       },
       "short_description": "Veganiškas ir vegetariškas pusryčių ir brunch restoranas",
+      "slug": "the-urban-garden",
       "tags": [
         "dubuo",
         "pusryčiai",
@@ -111,6 +116,7 @@
         "score": 9.2
       },
       "short_description": "Greitas ir šviežias meksikietiškas grilis | Šis restoranas priklauso ir jį valdo UAB Maisto inovacijos, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "no-forks-mexican-grill",
       "tags": [
         "meksikietiška",
         "taco",
@@ -131,6 +137,7 @@
         "score": 9
       },
       "short_description": "Kinų maistas",
+      "slug": "cheng-long",
       "tags": [
         "kiniška"
       ]
@@ -149,6 +156,7 @@
         "score": 9.2
       },
       "short_description": "Tikros itališkos picos iš aukščiausios kokybės itališkų ingredientų",
+      "slug": "marinara",
       "tags": [
         "itališka",
         "pica",
@@ -169,6 +177,7 @@
         "score": 9.2
       },
       "short_description": "Išskirtinis nepalietiškas maistas",
+      "slug": "maoji-himalaja",
       "tags": [
         "Indiška",
         "nepalietiška"
@@ -188,6 +197,7 @@
         "score": 9.2
       },
       "short_description": "Su meile gaminama ir 500°C kepama pica!",
+      "slug": "pizza-di-ascari",
       "tags": [
         "pica",
         "itališka",
@@ -208,6 +218,7 @@
         "score": 9
       },
       "short_description": "Unikalaus recepto cepelinai || Šis restoranas priklauso ir jį valdo UAB \"Džigora\", kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "mociutes-cepelinai",
       "tags": [
         "lietuviška",
         "cepelinai",
@@ -228,6 +239,7 @@
         "score": 9.2
       },
       "short_description": "Tradiciniai kinų valgiai",
+      "slug": "hong-kongas-basanaviciaus-g",
       "tags": [
         "vištiena",
         "kiniška",
@@ -248,6 +260,7 @@
         "score": 9.2
       },
       "short_description": "Skanūs tarptautinės virtuvės patiekalai\n",
+      "slug": "cozy",
       "tags": [
         "salotos",
         "sumuštiniai",
@@ -268,6 +281,7 @@
         "score": 9.2
       },
       "short_description": "Šviežiausi Azijos skoniai || Šis restoranas priklauso ir jį valdo UAB „Džiunglių kelias“, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "slug": "vathaitau",
       "tags": [
         "azijietiška",
         "sparneliai",
@@ -288,6 +302,7 @@
         "score": 8.6
       },
       "short_description": "Amerikietiškos virtuvės atradimai",
+      "slug": "talutti-bakesnshakes-city",
       "tags": [
         "pica",
         "mėsainiai",
@@ -308,6 +323,7 @@
         "score": 9.4
       },
       "short_description": "Sakartvelo virtuvė",
+      "slug": "georgian-house",
       "tags": [
         "kartveliška",
         "didkepsniai",
@@ -328,6 +344,7 @@
         "score": 9
       },
       "short_description": "Autentiška itališka virtuvė",
+      "slug": "piano-piano",
       "tags": [
         "itališka",
         "makaronai",
@@ -348,6 +365,7 @@
         "score": 9.2
       },
       "short_description": "Turtinga ir išskirtinė maisto kultūra",
+      "slug": "helen-restoranas",
       "tags": [
         "falafeliai",
         "kebabai",
@@ -368,6 +386,7 @@
         "score": 8.6
       },
       "short_description": "Naujų skonių gama",
+      "slug": "snatch-pizza-snacks-vilniaus-g",
       "tags": [
         "pica",
         "pita",
@@ -388,6 +407,7 @@
         "score": 9.2
       },
       "short_description": "Burgerių ir barbekiu restoranas",
+      "slug": "meat-lovers-pub",
       "tags": [
         "mėsainiai",
         "BBQ",
@@ -408,6 +428,7 @@
         "score": 8.8
       },
       "short_description": "Autentiška Tailandietinška virtuvė\n",
+      "slug": "thai-house-naugarduko-g",
       "tags": [
         "azijietiška",
         "karis",
@@ -428,6 +449,7 @@
         "score": 8.6
       },
       "short_description": "Kulinarijos magija susitinka su Samarkando širdimi",
+      "slug": "uzbekiskas-restoranas-bek",
       "tags": [
         "Central Asian",
         "azijietiška"
@@ -447,6 +469,7 @@
         "score": 8.8
       },
       "short_description": "Tradicinė kinų virtuvė",
+      "slug": "pekino-antis",
       "tags": [
         "kiniška",
         "azijietiška",
@@ -467,6 +490,7 @@
         "score": 9.6
       },
       "short_description": "Veganiškas restoranas",
+      "slug": "vieta-sv-ignoto-g",
       "tags": [
         "mėsainiai",
         "sveika",
@@ -483,6 +507,7 @@
       ],
       "name": "Goodfellas",
       "short_description": "Pagrindiniai žodžiai apie mus: original philly chesesteak sumuštiniai, kokybiški jautienos steikai ir kokybiški gėrimai",
+      "slug": "goodfellas-t-sevcenkos-g",
       "tags": [
         "amerikietiška",
         "sumuštiniai"
@@ -502,6 +527,7 @@
         "score": 8.6
       },
       "short_description": "Kinų virtuvės paslaptys",
+      "slug": "kinu-perlas-naugarduko-g",
       "tags": [
         "kiniška",
         "azijietiška"
@@ -521,6 +547,7 @@
         "score": 9.2
       },
       "short_description": "Tikras BBQ skonis išgautas naudojant ąžuolą",
+      "slug": "city-chef",
       "tags": [
         "amerikietiška",
         "BBQ",
@@ -541,6 +568,7 @@
         "score": 8.8
       },
       "short_description": "Amerikietiškų ir itališkų picų restoranas  || Šis restoranas priklauso ir jį valdo UAB \"Džigora\", kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "slug": "fokus-pizza-svitrigailos",
       "tags": [
         "pica",
         "mėsainiai",
@@ -561,6 +589,7 @@
         "score": 9.2
       },
       "short_description": "Rankų darbo desertai ir puikus maistas | Šis restoranas priklauso ir jį valdo UAB Saldi kava, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "sugamour-vokieciu-g",
       "tags": [
         "pusryčiai",
         "viduržemio",
@@ -581,6 +610,7 @@
         "score": 8.8
       },
       "short_description": "Kai virtuvėje Meksika susitika Japoniją gimsta meksikietiškas patiekalas japoniškame stiliuje - Sushi Burrito!",
+      "slug": "sushi-burrito-domininkonu-g",
       "tags": [
         "sušiai",
         "japoniška"
@@ -600,6 +630,7 @@
         "score": 9.6
       },
       "short_description": "Susikurk burbulų arbatą individualiai sau",
+      "slug": "letea-bubble-tea",
       "tags": [
         "burbulinė arbata",
         "azijietiška"
@@ -619,6 +650,7 @@
         "score": 8.8
       },
       "short_description": "Makaronai ir sūris | Šis restoranas priklauso ir jį valdo UAB Maisto inovacijos, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "mac-forks",
       "tags": [
         "amerikietiška",
         "makaronai"
@@ -638,6 +670,7 @@
         "score": 8.8
       },
       "short_description": "Tradicinė kinų virtuvė",
+      "slug": "pekinas",
       "tags": [
         "kiniška",
         "azijietiška",
@@ -654,6 +687,7 @@
       ],
       "name": "Mažoji Himalaja  (Momo & Tandoori)",
       "short_description": "Išskirtinis nepalietiškas maistas",
+      "slug": "mazoji-himalaja-momo-tandoori",
       "tags": [
         "Indiška"
       ]
@@ -672,6 +706,7 @@
         "score": 8.8
       },
       "short_description": "Maistas gaminamas ant žarijų",
+      "slug": "grilio-namai",
       "tags": [
         "grill",
         "kebabai"
@@ -691,6 +726,7 @@
         "score": 8.4
       },
       "short_description": "Unikali Vidurio Rytų virtuvė su ypatingais tradiciniais skoniais",
+      "slug": "shawarma-falafel-and-hummus",
       "tags": [
         "falafeliai",
         "shawarma",
@@ -711,6 +747,7 @@
         "score": 9.4
       },
       "short_description": "Originalūs itališki patiekalai",
+      "slug": "st-valentino-restoranas",
       "tags": [
         "itališka",
         "pica",
@@ -731,6 +768,7 @@
         "score": 9
       },
       "short_description": "Armėniška virtuvė",
+      "slug": "ararat",
       "tags": [
         "užkandžiai",
         "sriubos"
@@ -750,6 +788,7 @@
         "score": 7.8
       },
       "short_description": "Alaus šalių patiekalai || Šis restoranas priklauso ir jį valdo UAB 3B Solutionsa, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "slug": "beerhouse-craft-kitchen",
       "tags": [
         "BBQ",
         "šonkauliai",
@@ -770,6 +809,7 @@
         "score": 9.8
       },
       "short_description": "Aukščiausios kokybės jautiena ir ėriena iš pasaulio",
+      "slug": "bon-chop",
       "tags": [
         "didkepsniai",
         "steakhouse",
@@ -790,6 +830,7 @@
         "score": 9
       },
       "short_description": "Sushi ir kinų virtuvė | Šis restoranas priklauso ir jį valdo UAB Ronelta, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "emc-shimai-palangos",
       "tags": [
         "azijietiška",
         "kiniška",
@@ -810,6 +851,7 @@
         "score": 9.2
       },
       "short_description": "Amerikietiškos spurgos ir beigeliai",
+      "slug": "holy-donut",
       "tags": [
         "spurgos",
         "beigeliai",
@@ -830,6 +872,7 @@
         "score": 9.2
       },
       "short_description": "Fortas - už tai, kas tikra!",
+      "slug": "fortas-algirdo-g",
       "tags": [
         "itališka",
         "salotos",
@@ -850,6 +893,7 @@
         "score": 8.8
       },
       "short_description": "Rankų darbo picos bei kiti gardūs patiekalai",
+      "slug": "cancan-pizza-mindaugo",
       "tags": [
         "pica",
         "užkandžiai",
@@ -870,6 +914,7 @@
         "score": 9
       },
       "short_description": "Restoranas Bonocosì - tai lyg tikri itališki namai",
+      "slug": "bonocosi-vilniaus-g",
       "tags": [
         "itališka",
         "pica",
@@ -890,6 +935,7 @@
         "score": 8.8
       },
       "short_description": "Azijos virtuvės skoniai",
+      "slug": "hong-kong-vingriu",
       "tags": [
         "kiniška",
         "azijietiška"
@@ -909,6 +955,7 @@
         "score": 9.2
       },
       "short_description": "Greito maisto japonų restoranas",
+      "slug": "sushi-express-vokieciu-g",
       "tags": [
         "sušiai",
         "japoniška",
@@ -929,6 +976,7 @@
         "score": 9
       },
       "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Pliusai, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "plus-plus-plus-traku-g",
       "tags": [
         "beer",
         "europietiška"
@@ -948,6 +996,7 @@
         "score": 9.4
       },
       "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Makarena, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "plus-plus-plus-vilniaus-g",
       "tags": [
         "beer",
         "europietiška"
@@ -967,6 +1016,7 @@
         "score": 9.2
       },
       "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Makarena, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "plus-plus-plus-vokieciu-g",
       "tags": [
         "alkoholis",
         "alus",
@@ -987,6 +1037,7 @@
         "score": 9.4
       },
       "short_description": " Japonų virtuvė į jūsų namus",
+      "slug": "kamikadze-takeaway",
       "tags": [
         "azijietiška",
         "japoniška",
@@ -1007,6 +1058,7 @@
         "score": 9.2
       },
       "short_description": "Tex-Mex bulvytės, tacos ir kiti Meksikietiški džiaugsmai",
+      "slug": "spyglys",
       "tags": [
         "meksikietiška",
         "taco",
@@ -1027,6 +1079,7 @@
         "score": 9.2
       },
       "short_description": "Japoniška virtuvė su mažom didelių istorijų pradžiom",
+      "slug": "mililitrai",
       "tags": [
         "japoniška",
         "sušiai",
@@ -1043,6 +1096,7 @@
       ],
       "name": "Tachi Machi",
       "short_description": "Siūlome Okonomiyaki ir tikrus japoniškus namų gamybos patiekalus",
+      "slug": "tachi-machi",
       "tags": [
         "azijietiška",
         "japoniška"
@@ -1062,6 +1116,7 @@
         "score": 8.6
       },
       "short_description": "Lietuviška japoniško おいしい išraiška || Šis restoranas priklauso ir jį valdo UAB Izakaja, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "slug": "oisy-izakaya",
       "tags": [
         "donburiai",
         "japoniška",
@@ -1082,6 +1137,7 @@
         "score": 9
       },
       "short_description": "Autentiška traški korėjietiška vištiena, šviežiai kepama kas dieną",
+      "slug": "two-chicks",
       "tags": [
         "BBQ",
         "vištiena",
@@ -1102,6 +1158,7 @@
         "score": 9
       },
       "short_description": "Sveikuoliški ir skanūs Bowlai ",
+      "slug": "ma-bowls",
       "tags": [
         "dubuo",
         "sveika"
@@ -1121,6 +1178,7 @@
         "score": 8.4
       },
       "short_description": "Mėsainiai, užkandžiai, salotos, pasta",
+      "slug": "kaskas",
       "tags": [
         "makaronai",
         "salotos",
@@ -1137,6 +1195,7 @@
       ],
       "name": "Mulo Desnudo",
       "short_description": "Meksikos skoniai",
+      "slug": "naked-mule",
       "tags": [
         "meksikietiška",
         "taco"
@@ -1156,6 +1215,7 @@
         "score": 7
       },
       "short_description": "Aukščiausios kokybės suši ir japoniški užkandžiai bei sriubos, kurias gamina mūsų meistrai.",
+      "slug": "sushi-artisan",
       "tags": [
         "azijietiška",
         "sušiai",
