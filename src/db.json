@@ -4,873 +4,600 @@
       "id": 1,
       "types": [
         "japanese_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6802691,
-
         "longitude": 25.275585
       },
-
       "rating": 4.8,
-
       "googleMapsUri": "https://maps.google.com/?cid=9259383848380954721",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: Closed",
-
           "Tuesday: 12:00 – 2:30 PM, 5:00 – 9:30 PM",
-
           "Wednesday: 12:00 – 2:30 PM, 5:00 – 9:30 PM",
-
           "Thursday: 12:00 – 2:30 PM, 5:00 – 9:30 PM",
-
           "Friday: 12:00 – 2:30 PM, 5:00 – 9:30 PM",
-
           "Saturday: 12:00 – 2:30 PM, 5:00 – 9:30 PM",
-
           "Sunday: Closed"
         ]
       },
-
       "userRatingCount": 201,
-
       "displayName": {
         "text": "Tachi Machi"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 9A, Vilnius"
     },
-
     {
       "id": 2,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6804223,
-
         "longitude": 25.2743503
       },
-
       "rating": 4.5,
-
       "googleMapsUri": "https://maps.google.com/?cid=9278266114066321365",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: Closed",
-
           "Tuesday: 11:30 AM – 10:00 PM",
-
           "Wednesday: 11:30 AM – 10:00 PM",
-
           "Thursday: 11:30 AM – 11:55 PM",
-
           "Friday: 12:00 – 11:55 PM",
-
           "Saturday: 12:00 – 11:55 PM",
-
           "Sunday: Closed"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 261,
-
       "displayName": {
         "text": "Chagin Restaurant"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 11, Vilnius"
     },
-
     {
       "id": 3,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6800801,
-
         "longitude": 25.2769546
       },
-
       "rating": 4.1,
-
       "googleMapsUri": "https://maps.google.com/?cid=12362684060603534237",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 10:00 AM – 9:00 PM",
-
           "Tuesday: 10:00 AM – 9:00 PM",
-
           "Wednesday: 10:00 AM – 9:00 PM",
-
           "Thursday: 10:00 AM – 9:00 PM",
-
           "Friday: 10:00 AM – 11:00 PM",
-
           "Saturday: 10:00 AM – 11:00 PM",
-
           "Sunday: 10:00 AM – 8:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 1162,
-
       "displayName": {
         "text": "Ararat Restaurant"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 3, Vilnius"
     },
-
     {
       "id": 4,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6800247,
-
         "longitude": 25.2771275
       },
-
       "rating": 4.6,
-
       "googleMapsUri": "https://maps.google.com/?cid=7184515387301110673",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 9:00 AM – 7:00 PM",
-
           "Tuesday: 9:00 AM – 7:00 PM",
-
           "Wednesday: 9:00 AM – 7:00 PM",
-
           "Thursday: 9:00 AM – 7:00 PM",
-
           "Friday: 9:00 AM – 7:00 PM",
-
           "Saturday: 9:00 AM – 7:00 PM",
-
           "Sunday: 9:00 AM – 7:00 PM"
         ]
       },
-
       "userRatingCount": 633,
-
       "displayName": {
         "text": "The Urban Garden"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 3, Vilnius"
     },
-
     {
       "id": 5,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6808227,
-
         "longitude": 25.2732879
       },
-
       "rating": 4.5,
-
       "googleMapsUri": "https://maps.google.com/?cid=11704726645915225835",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 12:00 – 11:00 PM",
-
           "Tuesday: 12:00 – 11:00 PM",
-
           "Wednesday: 12:00 – 11:00 PM",
-
           "Thursday: 12:00 – 11:00 PM",
-
           "Friday: 12:00 PM – 12:00 AM",
-
           "Saturday: 12:00 PM – 12:00 AM",
-
           "Sunday: 12:00 – 10:00 PM"
         ]
       },
-
       "userRatingCount": 78,
-
       "displayName": {
         "text": "Balkonas"
       },
-
       "shortFormattedAddress": "Lietuvos rusų dramos teatras, J. Basanavičiaus g. 13, Vilnius"
     },
-
     {
       "id": 6,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.680818099999996,
-
         "longitude": 25.2732745
       },
-
       "googleMapsUri": "https://maps.google.com/?cid=2737330269025471976",
-
       "displayName": {
         "text": "UAB Gratia"
       },
-
       "shortFormattedAddress": "Lietuvos rusų dramos teatras, J. Basanavičiaus g. 13, Vilnius"
     },
-
     {
       "id": 7,
       "types": [
         "cafe",
-
         "brunch_restaurant",
-
         "breakfast_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6803653,
-
         "longitude": 25.2774209
       },
-
       "rating": 4.6,
-
       "googleMapsUri": "https://maps.google.com/?cid=9815332188902621801",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: Closed",
-
           "Tuesday: 9:00 AM – 7:00 PM",
-
           "Wednesday: 9:00 AM – 7:00 PM",
-
           "Thursday: 9:00 AM – 7:00 PM",
-
           "Friday: 9:00 AM – 7:00 PM",
-
           "Saturday: 9:00 AM – 7:00 PM",
-
           "Sunday: 9:00 AM – 7:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
-
       "userRatingCount": 287,
-
       "displayName": {
         "text": "Dr. Waffle"
       },
-
       "shortFormattedAddress": "Pylimo g. 11, Vilnius"
     },
-
     {
       "id": 8,
       "types": [
         "barbecue_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.680023399999996,
-
         "longitude": 25.2774792
       },
-
       "rating": 4.6,
-
       "googleMapsUri": "https://maps.google.com/?cid=9496714150208085457",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 11:00 AM – 11:00 PM",
-
           "Tuesday: 11:00 AM – 11:00 PM",
-
           "Wednesday: 11:00 AM – 11:00 PM",
-
           "Thursday: 11:00 AM – 11:00 PM",
-
           "Friday: 11:00 AM – 12:00 AM",
-
           "Saturday: 12:00 PM – 12:00 AM",
-
           "Sunday: 12:00 – 11:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 1045,
-
       "displayName": {
         "text": "City Chef Barbecue"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 1, Vilnius"
     },
-
     {
       "id": 9,
       "types": [
         "bar",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6809398,
-
         "longitude": 25.277054699999997
       },
-
       "rating": 4.5,
-
       "googleMapsUri": "https://maps.google.com/?cid=16965820392063403204",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 11:30 AM – 12:00 AM",
-
           "Tuesday: 11:30 AM – 12:00 AM",
-
           "Wednesday: 11:30 AM – 12:00 AM",
-
           "Thursday: 11:30 AM – 1:00 AM",
-
           "Friday: 11:30 AM – 2:00 AM",
-
           "Saturday: 11:30 AM – 2:00 AM",
-
           "Sunday: 11:30 AM – 12:00 AM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 272,
-
       "displayName": {
         "text": "7 Fridays Reformatų"
       },
-
       "shortFormattedAddress": "Reformatų skveras, Pylimo g. 9a, Vilnius"
     },
-
     {
       "id": 10,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6792636,
-
         "longitude": 25.277316
       },
-
       "rating": 4.2,
-
       "googleMapsUri": "https://maps.google.com/?cid=15926697334487013512",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 10:00 AM – 8:00 PM",
-
           "Tuesday: 10:00 AM – 8:00 PM",
-
           "Wednesday: 10:00 AM – 8:00 PM",
-
           "Thursday: 10:00 AM – 10:00 PM",
-
           "Friday: 10:00 AM – 10:00 PM",
-
           "Saturday: 10:00 AM – 10:00 PM",
-
           "Sunday: 10:00 AM – 8:00 PM"
         ]
       },
-
       "userRatingCount": 174,
-
       "displayName": {
         "text": "MO bistro"
       },
-
       "shortFormattedAddress": "Pylimo g. 17, Vilnius"
     },
-
     {
       "id": 11,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.680315799999995,
-
         "longitude": 25.277827700000003
       },
-
       "googleMapsUri": "https://maps.google.com/?cid=5183870851315504214",
-
       "displayName": {
         "text": "Піцерія Юргенс і дракон"
       },
-
       "shortFormattedAddress": "Pylimo g. 22D, Vilnius"
     },
-
     {
       "id": 12,
       "types": [
         "vegan_restaurant",
-
         "vegetarian_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6803029,
-
         "longitude": 25.277835
       },
-
       "rating": 4.7,
-
       "googleMapsUri": "https://maps.google.com/?cid=11440725858369782736",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 11:00 AM – 10:00 PM",
-
           "Tuesday: 11:00 AM – 10:00 PM",
-
           "Wednesday: 11:00 AM – 10:00 PM",
-
           "Thursday: 11:00 AM – 10:00 PM",
-
           "Friday: 11:00 AM – 10:30 PM",
-
           "Saturday: 11:00 AM – 10:30 PM",
-
           "Sunday: 11:00 AM – 10:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 916,
-
       "displayName": {
         "text": "RoseHip Vegan Bistro"
       },
-
       "shortFormattedAddress": "Pylimo g. 22D, Vilnius"
     },
-
     {
       "id": 13,
       "types": [
         "pizza_restaurant",
-
         "fast_food_restaurant",
-
         "meal_takeaway",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.68036,
-
         "longitude": 25.277925
       },
-
       "rating": 3.2,
-
       "googleMapsUri": "https://maps.google.com/?cid=17098874306492932234",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 11:00 AM – 9:00 PM",
-
           "Tuesday: 11:00 AM – 9:00 PM",
-
           "Wednesday: 11:00 AM – 9:00 PM",
-
           "Thursday: 11:00 AM – 9:00 PM",
-
           "Friday: 11:00 AM – 10:00 PM",
-
           "Saturday: 12:00 – 10:00 PM",
-
           "Sunday: 12:00 – 8:00 PM"
         ]
       },
-
       "userRatingCount": 52,
-
       "displayName": {
         "text": "Brooklyn Brothers"
       },
-
       "shortFormattedAddress": "Jurgis ir Drakonas, Pylimo g. 22D, Vilnius"
     },
-
     {
       "id": 14,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.68036,
-
         "longitude": 25.277925
       },
-
       "rating": 4.3,
-
       "googleMapsUri": "https://maps.google.com/?cid=18043381003733723990",
-
       "userRatingCount": 157,
-
       "displayName": {
         "text": "Freunde"
       },
-
       "shortFormattedAddress": "Pylimo g. 22D, Vilnius"
     },
-
     {
       "id": 15,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.678864600000004,
-
         "longitude": 25.277458
       },
-
       "rating": 4.7,
-
       "googleMapsUri": "https://maps.google.com/?cid=3861097331314947093",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: Closed",
-
           "Tuesday: 4:00 – 10:00 PM",
-
           "Wednesday: 4:00 – 10:00 PM",
-
           "Thursday: 11:00 AM – 10:00 PM",
-
           "Friday: 11:00 AM – 10:00 PM",
-
           "Saturday: 11:00 AM – 10:00 PM",
-
           "Sunday: 11:00 AM – 4:00 PM"
         ]
       },
-
       "userRatingCount": 95,
-
       "displayName": {
         "text": "NO CHEF"
       },
-
       "shortFormattedAddress": "Pylimo g. 19, Vilnius"
     },
-
     {
       "id": 16,
       "types": [
         "bar",
-
         "cafe",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6799815,
-
         "longitude": 25.2783154
       },
-
       "rating": 4.4,
-
       "googleMapsUri": "https://maps.google.com/?cid=17617335062229014579",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 11:00 AM – 12:00 AM",
-
           "Tuesday: 11:00 AM – 12:00 AM",
-
           "Wednesday: 11:00 AM – 12:00 AM",
-
           "Thursday: 11:00 AM – 1:00 AM",
-
           "Friday: 11:00 AM – 3:00 AM",
-
           "Saturday: 12:00 PM – 2:30 AM",
-
           "Sunday: 12:00 PM – 12:00 AM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
-
       "userRatingCount": 453,
-
       "displayName": {
         "text": "Plus Plus Plus"
       },
-
       "shortFormattedAddress": "Trakų g. 2, Vilnius"
     },
-
     {
       "id": 17,
       "types": [
         "japanese_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6799815,
-
         "longitude": 25.2783154
       },
-
       "rating": 4.6,
-
       "googleMapsUri": "https://maps.google.com/?cid=2172624860226158722",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: Closed",
-
           "Tuesday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM",
-
           "Wednesday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM",
-
           "Thursday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM",
-
           "Friday: 11:00 AM – 2:00 PM, 5:00 – 11:00 PM",
-
           "Saturday: 2:00 – 11:00 PM",
-
           "Sunday: 12:00 – 9:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_MODERATE",
-
       "userRatingCount": 356,
-
       "displayName": {
         "text": "OIŠY Izakaya"
       },
-
       "shortFormattedAddress": "Trakų g. 2, Vilnius",
-
       "editorialSummary": {
         "text": "Basic Japanese spot with a patio offering skewers, vegetarian fare & small plates, plus beer & sake."
       }
     },
-
     {
       "id": 18,
-      "types": ["restaurant", "food", "point_of_interest", "establishment"],
-
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
       "location": {
         "latitude": 54.6811835,
-
         "longitude": 25.272274799999998
       },
-
       "rating": 5,
-
       "googleMapsUri": "https://maps.google.com/?cid=9649742380809813456",
-
       "userRatingCount": 1,
-
       "displayName": {
         "text": "UAB kuklus"
       },
-
       "shortFormattedAddress": "J, J. Basanavičiaus g. 15, Vilnius"
     },
-
     {
       "id": 19,
       "types": [
         "italian_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.6811835,
-
         "longitude": 25.272274799999998
       },
-
       "rating": 4.6,
-
       "googleMapsUri": "https://maps.google.com/?cid=13910948885845761806",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 12:00 – 11:00 PM",
-
           "Tuesday: 12:00 – 11:00 PM",
-
           "Wednesday: 12:00 – 11:00 PM",
-
           "Thursday: 12:00 – 11:00 PM",
-
           "Friday: 12:00 PM – 12:00 AM",
-
           "Saturday: 12:00 PM – 12:00 AM",
-
           "Sunday: 12:00 – 11:00 PM"
         ]
       },
-
       "userRatingCount": 816,
-
       "displayName": {
         "text": "Osteria da Luca"
       },
-
       "shortFormattedAddress": "J. Basanavičiaus g. 15, Vilnius"
     },
-
     {
       "id": 20,
       "types": [
         "chinese_restaurant",
-
         "restaurant",
-
         "food",
-
         "point_of_interest",
-
         "establishment"
       ],
-
       "location": {
         "latitude": 54.678382899999995,
-
         "longitude": 25.2768154
       },
-
       "rating": 4.3,
-
       "googleMapsUri": "https://maps.google.com/?cid=5591409926337593222",
-
       "regularOpeningHours": {
         "weekdayDescriptions": [
           "Monday: 10:30 AM – 10:00 PM",
-
           "Tuesday: 10:30 AM – 10:00 PM",
-
           "Wednesday: 10:30 AM – 10:00 PM",
-
           "Thursday: 10:30 AM – 10:00 PM",
-
           "Friday: 10:30 AM – 10:00 PM",
-
           "Saturday: 11:30 AM – 10:00 PM",
-
           "Sunday: 11:30 AM – 10:00 PM"
         ]
       },
-
       "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
-
       "userRatingCount": 794,
-
       "displayName": {
         "text": "Gold Hong Kong"
       },
-
       "shortFormattedAddress": "Vingrių g. 11, Vilnius"
     }
   ]
