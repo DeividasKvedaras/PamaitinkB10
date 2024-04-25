@@ -21,8 +21,8 @@ export default function Venue({ params }) {
 
   return (
     <React.Fragment>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        Open alert dialog
+      <Button variant="text" onClick={handleClickOpen}>
+        Plačiau
       </Button>
       <Dialog
         open={open}
