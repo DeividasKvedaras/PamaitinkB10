@@ -1,0 +1,1166 @@
+[
+  {
+    "venue": {
+      "address": "Tauro g. 3",
+      "location": [
+        25.2732592,
+        54.68421319999999
+      ],
+      "name": "Jammi (Tauro kalnas)",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Greito maisto restoranas",
+      "tags": [
+        "mėsainiai",
+        "mėsainiai",
+        "kebabai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Totorių g. 24",
+      "location": [
+        25.2827355,
+        54.6837749
+      ],
+      "name": "Sushi Masters",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Sushi masters - skonis, kuris nukels Jus arčiau Rytų",
+      "tags": [
+        "sušiai",
+        "japoniška",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Algirdo g. 5 -2",
+      "location": [
+        25.269665122032166,
+        54.68070674301559
+      ],
+      "name": "Borsch",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Ukrainietiška virtuvė || Šis restoranas priklauso ir jį valdo UAB Ukrainietiški patiekalai, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "tags": [
+        "sriubos",
+        "koldūnai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Dominikonų g. 6",
+      "location": [
+        25.283743,
+        54.6809859
+      ],
+      "name": "Sushi Lounge (Dominikonų g.)",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Gurmaniški sušiai. Neišragautų skonių istorija",
+      "tags": [
+        "azijietiška",
+        "japoniška",
+        "sušiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "J.Basanaviciaus g. 3",
+      "location": [
+        25.276995599269863,
+        54.6800925268964
+      ],
+      "name": "The Urban Garden",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Veganiškas ir vegetariškas pusryčių ir brunch restoranas",
+      "tags": [
+        "dubuo",
+        "pusryčiai",
+        "vegetariška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 9",
+      "location": [
+        25.28449237346649,
+        54.679239635454444
+      ],
+      "name": "No Forks Mexican Grill (Vokiečių g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Greitas ir šviežias meksikietiškas grilis | Šis restoranas priklauso ir jį valdo UAB Maisto inovacijos, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "meksikietiška",
+        "taco",
+        "burita"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Algirdo g. 8",
+      "location": [
+        25.270418822765347,
+        54.67959940275674
+      ],
+      "name": "Cheng long",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Kinų maistas",
+      "tags": [
+        "kiniška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 14",
+      "location": [
+        25.283937501319343,
+        54.67892459807146
+      ],
+      "name": "Pizza Marinara",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Tikros itališkos picos iš aukščiausios kokybės itališkų ingredientų",
+      "tags": [
+        "itališka",
+        "pica",
+        "vegetariška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vingrių g. 25A",
+      "location": [
+        25.2792747,
+        54.6773373
+      ],
+      "name": "Mažoji Himalaja",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Išskirtinis nepalietiškas maistas",
+      "tags": [
+        "Indiška",
+        "nepalietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Švitrigailos g. 16",
+      "location": [
+        25.267779082169,
+        54.67712827242677
+      ],
+      "name": "Pizza di Ascari",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Su meile gaminama ir 500°C kepama pica!",
+      "tags": [
+        "pica",
+        "itališka",
+        "gėrimai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Tai virtuali vieta",
+      "location": [
+        25.26642233133316,
+        54.680743813750276
+      ],
+      "name": "Močiutės cepelinai",
+      "rating": {
+        "rating": 4,
+        "score": 9
+      },
+      "short_description": "Unikalaus recepto cepelinai || Šis restoranas priklauso ir jį valdo UAB \"Džigora\", kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "lietuviška",
+        "cepelinai",
+        "desertas"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Basanavičiaus g 19",
+      "location": [
+        25.2714668,
+        54.6815163
+      ],
+      "name": "Hong Kongas (Basanavičiaus g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Tradiciniai kinų valgiai",
+      "tags": [
+        "vištiena",
+        "kiniška",
+        "salotos"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Dominikonų gatvė 10",
+      "location": [
+        25.2851039171219,
+        54.6812741396133
+      ],
+      "name": "Cozy",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Skanūs tarptautinės virtuvės patiekalai\n",
+      "tags": [
+        "salotos",
+        "sumuštiniai",
+        "kava"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "J. Basanavičiaus g. 37",
+      "location": [
+        25.265775918960568,
+        54.68172692697283
+      ],
+      "name": "Vathaitau",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Šviežiausi Azijos skoniai || Šis restoranas priklauso ir jį valdo UAB „Džiunglių kelias“, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "tags": [
+        "azijietiška",
+        "sparneliai",
+        "jūros gėrybės"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 35",
+      "location": [
+        25.279500782489777,
+        54.683020134291354
+      ],
+      "name": "Talutti Bakes'n'Shakes City",
+      "rating": {
+        "rating": 3,
+        "score": 8.6
+      },
+      "short_description": "Amerikietiškos virtuvės atradimai",
+      "tags": [
+        "pica",
+        "mėsainiai",
+        "blynai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Mėsinių g. 4-3",
+      "location": [
+        25.284621119499207,
+        54.6777447061388
+      ],
+      "name": "Georgian House",
+      "rating": {
+        "rating": 4,
+        "score": 9.4
+      },
+      "short_description": "Sakartvelo virtuvė",
+      "tags": [
+        "kartveliška",
+        "didkepsniai",
+        "chačapuri"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 33",
+      "location": [
+        25.2788865566244,
+        54.68331939581996
+      ],
+      "name": "Piano Piano (Vilniaus g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9
+      },
+      "short_description": "Autentiška itališka virtuvė",
+      "tags": [
+        "itališka",
+        "makaronai",
+        "pica"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Švitrigailos g. 11A",
+      "location": [
+        25.2674637,
+        54.676734
+      ],
+      "name": "Helen Restoranas",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Turtinga ir išskirtinė maisto kultūra",
+      "tags": [
+        "falafeliai",
+        "kebabai",
+        "libanietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 47 - 4",
+      "location": [
+        25.282047488087215,
+        54.68076794932363
+      ],
+      "name": "Snatch - Pizza & Snacks (Vilniaus g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.6
+      },
+      "short_description": "Naujų skonių gama",
+      "tags": [
+        "pica",
+        "pita",
+        "BBQ"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Liejyklos g. 8",
+      "location": [
+        25.2829724,
+        54.6836311
+      ],
+      "name": "Meat Lovers Pub",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Burgerių ir barbekiu restoranas",
+      "tags": [
+        "mėsainiai",
+        "BBQ",
+        "užkandžiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Naugarduko g. 12",
+      "location": [
+        25.2765229,
+        54.6769417
+      ],
+      "name": "Thai House (Naugarduko g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Autentiška Tailandietinška virtuvė\n",
+      "tags": [
+        "azijietiška",
+        "karis",
+        "Tailandietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Pylimo g. 23",
+      "location": [
+        25.2772507,
+        54.6783248
+      ],
+      "name": "Uzbekiškas Restoranas BEK",
+      "rating": {
+        "rating": 3,
+        "score": 8.6
+      },
+      "short_description": "Kulinarijos magija susitinka su Samarkando širdimi",
+      "tags": [
+        "Central Asian",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Algirdo g. 2b - 62",
+      "location": [
+        25.2700105,
+        54.680671
+      ],
+      "name": "Pekino antis",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Tradicinė kinų virtuvė",
+      "tags": [
+        "kiniška",
+        "azijietiška",
+        "vegetariška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Šv. Ignoto g. 12-1",
+      "location": [
+        25.284702,
+        54.6814877
+      ],
+      "name": "Vieta (Vegan)",
+      "rating": {
+        "rating": 4,
+        "score": 9.6
+      },
+      "short_description": "Veganiškas restoranas",
+      "tags": [
+        "mėsainiai",
+        "sveika",
+        "veganiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "T. Ševčenkos g. 9-2",
+      "location": [
+        25.27046914453075,
+        54.67810465093885
+      ],
+      "name": "Goodfellas",
+      "short_description": "Pagrindiniai žodžiai apie mus: original philly chesesteak sumuštiniai, kokybiški jautienos steikai ir kokybiški gėrimai",
+      "tags": [
+        "amerikietiška",
+        "sumuštiniai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Naugarduko g. 30a",
+      "location": [
+        25.2708675,
+        54.6750087
+      ],
+      "name": "Kinų perlas (Naugarduko g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.6
+      },
+      "short_description": "Kinų virtuvės paslaptys",
+      "tags": [
+        "kiniška",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "J. Basanavičiaus g. 1",
+      "location": [
+        25.277548134326935,
+        54.68000568785981
+      ],
+      "name": "City Chef",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Tikras BBQ skonis išgautas naudojant ąžuolą",
+      "tags": [
+        "amerikietiška",
+        "BBQ",
+        "mėsainiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Švitrigailos g. 4",
+      "location": [
+        25.266475677235572,
+        54.68041908174703
+      ],
+      "name": "Fokus Pizza (Švitrigailos g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Amerikietiškų ir itališkų picų restoranas  || Šis restoranas priklauso ir jį valdo UAB \"Džigora\", kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "tags": [
+        "pica",
+        "mėsainiai",
+        "itališka"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 11",
+      "location": [
+        25.2840122580528,
+        54.6796459241579
+      ],
+      "name": "Sugamour (Vokiečių g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Rankų darbo desertai ir puikus maistas | Šis restoranas priklauso ir jį valdo UAB Saldi kava, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "pusryčiai",
+        "viduržemio",
+        "desertas"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Tai virtuali vieta",
+      "location": [
+        25.283743,
+        54.6809859
+      ],
+      "name": "Sushi Burrito (Domininkonų g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Kai virtuvėje Meksika susitika Japoniją gimsta meksikietiškas patiekalas japoniškame stiliuje - Sushi Burrito!",
+      "tags": [
+        "sušiai",
+        "japoniška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Trakų g. 7-10 ",
+      "location": [
+        25.279625491970027,
+        54.68002327185177
+      ],
+      "name": "LeTea Bubble Tea",
+      "rating": {
+        "rating": 4,
+        "score": 9.6
+      },
+      "short_description": "Susikurk burbulų arbatą individualiai sau",
+      "tags": [
+        "burbulinė arbata",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Tai virtuali vieta",
+      "location": [
+        25.284501,
+        54.6791894
+      ],
+      "name": "Mac & Forks (Vokiečių g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Makaronai ir sūris | Šis restoranas priklauso ir jį valdo UAB Maisto inovacijos, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "amerikietiška",
+        "makaronai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Algirdo g. 28",
+      "location": [
+        25.271797478199005,
+        54.67602329818492
+      ],
+      "name": "Pekinas",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Tradicinė kinų virtuvė",
+      "tags": [
+        "kiniška",
+        "azijietiška",
+        "vegetariška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Pylimo g. 27",
+      "location": [
+        25.2796416,
+        54.6777136
+      ],
+      "name": "Mažoji Himalaja  (Momo & Tandoori)",
+      "short_description": "Išskirtinis nepalietiškas maistas",
+      "tags": [
+        "Indiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Trakų g. 16",
+      "location": [
+        25.281720077765286,
+        54.68047015401847
+      ],
+      "name": "Grilio namai",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Maistas gaminamas ant žarijų",
+      "tags": [
+        "grill",
+        "kebabai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Pylimo g. 25",
+      "location": [
+        25.279382853446435,
+        54.6778716705275
+      ],
+      "name": "Habibi Oriental Food",
+      "rating": {
+        "rating": 3,
+        "score": 8.4
+      },
+      "short_description": "Unikali Vidurio Rytų virtuvė su ypatingais tradiciniais skoniais",
+      "tags": [
+        "falafeliai",
+        "shawarma",
+        "grill"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Trakų g. 18",
+      "location": [
+        25.282158,
+        54.6806134
+      ],
+      "name": "St. Valentino restoranas",
+      "rating": {
+        "rating": 4,
+        "score": 9.4
+      },
+      "short_description": "Originalūs itališki patiekalai",
+      "tags": [
+        "itališka",
+        "pica",
+        "salotos"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Basanavičiaus g. 3",
+      "location": [
+        25.277018619561943,
+        54.68012328996505
+      ],
+      "name": "Ararat",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Armėniška virtuvė",
+      "tags": [
+        "užkandžiai",
+        "sriubos"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Mėsinių g. 4",
+      "location": [
+        25.28494473813037,
+        54.67814045232765
+      ],
+      "name": "BeerHouse & Craft Kitchen",
+      "rating": {
+        "rating": 3,
+        "score": 7.8
+      },
+      "short_description": "Alaus šalių patiekalai || Šis restoranas priklauso ir jį valdo UAB 3B Solutionsa, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas\n",
+      "tags": [
+        "BBQ",
+        "šonkauliai",
+        "žuvis"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 11",
+      "location": [
+        25.2838923,
+        54.6797453
+      ],
+      "name": "Bon Chop",
+      "rating": {
+        "rating": 4,
+        "score": 9.8
+      },
+      "short_description": "Aukščiausios kokybės jautiena ir ėriena iš pasaulio",
+      "tags": [
+        "didkepsniai",
+        "steakhouse",
+        "fine-dining"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Palangos g. 2",
+      "location": [
+        25.277473032474518,
+        54.68289608741407
+      ],
+      "name": "Eat More Chinese & Shimai Sushi (Palangos g.)",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Sushi ir kinų virtuvė | Šis restoranas priklauso ir jį valdo UAB Ronelta, kuri yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "azijietiška",
+        "kiniška",
+        "japoniška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 9",
+      "location": [
+        25.284328758716583,
+        54.679354389164374
+      ],
+      "name": "Holy Donut (Vokiečių g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Amerikietiškos spurgos ir beigeliai",
+      "tags": [
+        "spurgos",
+        "beigeliai",
+        "pusryčiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Algirdo g. 17",
+      "location": [
+        25.2703761,
+        54.6788096
+      ],
+      "name": "Fortas (Algirdo g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Fortas - už tai, kas tikra!",
+      "tags": [
+        "itališka",
+        "salotos",
+        "užkandžiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Mindaugo g. 11",
+      "location": [
+        25.272801688129736,
+        54.67776424469101
+      ],
+      "name": "CANCAN Pizza (Mindaugo g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Rankų darbo picos bei kiti gardūs patiekalai",
+      "tags": [
+        "pica",
+        "užkandžiai",
+        "sriubos"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 18",
+      "location": [
+        25.279662264417414,
+        54.685075275580715
+      ],
+      "name": "Bonocosi (Vilniaus g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9
+      },
+      "short_description": "Restoranas Bonocosì - tai lyg tikri itališki namai",
+      "tags": [
+        "itališka",
+        "pica",
+        "gėrimai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vingrių g.11-4",
+      "location": [
+        25.276741274425756,
+        54.67836064037439
+      ],
+      "name": "Hong Kong (Vingrių g.)",
+      "rating": {
+        "rating": 3,
+        "score": 8.8
+      },
+      "short_description": "Azijos virtuvės skoniai",
+      "tags": [
+        "kiniška",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 7",
+      "location": [
+        25.28468012809753,
+        54.67910627262731
+      ],
+      "name": "Sushi Express (Vokiečių g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Greito maisto japonų restoranas",
+      "tags": [
+        "sušiai",
+        "japoniška",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Trakų g. 2",
+      "location": [
+        25.278149033729363,
+        54.68001025768854
+      ],
+      "name": "Plus Plus Plus (Trakų g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9
+      },
+      "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Pliusai, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "beer",
+        "europietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 39",
+      "location": [
+        25.27987300108748,
+        54.68215238484342
+      ],
+      "name": "Plus Plus Plus (Vilniaus g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.4
+      },
+      "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Makarena, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "beer",
+        "europietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vokiečių g. 8",
+      "location": [
+        25.2847783,
+        54.6785042
+      ],
+      "name": "Plus Plus Plus (Vokiečių g.)",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "+++ draugiški Jūsų piniginei || Šis restoranas priklauso ir jį valdo UAB Makarena, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "alkoholis",
+        "alus",
+        "sumuštiniai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "A. Smetonos g. 3-50",
+      "location": [
+        25.276876141344836,
+        54.68608054318071
+      ],
+      "name": "Kamikadze Takeaway",
+      "rating": {
+        "rating": 4,
+        "score": 9.4
+      },
+      "short_description": " Japonų virtuvė į jūsų namus",
+      "tags": [
+        "azijietiška",
+        "japoniška",
+        "jūros gėrybės"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Basanavičiaus g. 7",
+      "location": [
+        25.276267,
+        54.6801964
+      ],
+      "name": "Spyglys",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Tex-Mex bulvytės, tacos ir kiti Meksikietiški džiaugsmai",
+      "tags": [
+        "meksikietiška",
+        "taco",
+        "burita"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 33",
+      "location": [
+        25.279102096768266,
+        54.683379388892156
+      ],
+      "name": "Mililitrai",
+      "rating": {
+        "rating": 4,
+        "score": 9.2
+      },
+      "short_description": "Japoniška virtuvė su mažom didelių istorijų pradžiom",
+      "tags": [
+        "japoniška",
+        "sušiai",
+        "azijietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "  J. Basanavičius g. 9A",
+      "location": [
+        25.275308659067775,
+        54.68030218851416
+      ],
+      "name": "Tachi Machi",
+      "short_description": "Siūlome Okonomiyaki ir tikrus japoniškus namų gamybos patiekalus",
+      "tags": [
+        "azijietiška",
+        "japoniška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Trakų g. 2-2",
+      "location": [
+        25.2782884126392,
+        54.6799387041183
+      ],
+      "name": "OIŠY Izakaya",
+      "rating": {
+        "rating": 3,
+        "score": 8.6
+      },
+      "short_description": "Lietuviška japoniško おいしい išraiška || Šis restoranas priklauso ir jį valdo UAB Izakaja, kuris yra atsakinga už parduodamas prekes. Visą informaciją apie parduodamus produktus pateikia pardavėjas",
+      "tags": [
+        "donburiai",
+        "japoniška",
+        "bento"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vingrių g. 17",
+      "location": [
+        25.2775879,
+        54.6777676
+      ],
+      "name": "Two Chicks",
+      "rating": {
+        "rating": 3,
+        "score": 9
+      },
+      "short_description": "Autentiška traški korėjietiška vištiena, šviežiai kepama kas dieną",
+      "tags": [
+        "BBQ",
+        "vištiena",
+        "korėjietiška"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Tai virtuali vieta",
+      "location": [
+        25.2775879,
+        54.6777676
+      ],
+      "name": "Ma Bowls",
+      "rating": {
+        "rating": 4,
+        "score": 9
+      },
+      "short_description": "Sveikuoliški ir skanūs Bowlai ",
+      "tags": [
+        "dubuo",
+        "sveika"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Islandijos g. 4",
+      "location": [
+        25.27781367301941,
+        54.68422647040447
+      ],
+      "name": "KasKas",
+      "rating": {
+        "rating": 3,
+        "score": 8.4
+      },
+      "short_description": "Mėsainiai, užkandžiai, salotos, pasta",
+      "tags": [
+        "makaronai",
+        "salotos",
+        "užkandžiai"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Vilniaus g. 39",
+      "location": [
+        25.2789906,
+        54.6821916
+      ],
+      "name": "Mulo Desnudo",
+      "short_description": "Meksikos skoniai",
+      "tags": [
+        "meksikietiška",
+        "taco"
+      ]
+    }
+  },
+  {
+    "venue": {
+      "address": "Tai virtuali vieta",
+      "location": [
+        25.2790141,
+        54.6834701
+      ],
+      "name": "Sushi Artisan",
+      "rating": {
+        "rating": 3,
+        "score": 7
+      },
+      "short_description": "Aukščiausios kokybės suši ir japoniški užkandžiai bei sriubos, kurias gamina mūsų meistrai.",
+      "tags": [
+        "azijietiška",
+        "sušiai",
+        "japoniška"
+      ]
+    }
+  }
+]
