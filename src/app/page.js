@@ -10,24 +10,22 @@ import { DataGrid } from "@mui/x-data-grid";
 import { Button } from "@mui/material";
 
 export default function Home() {
-  const [data, setData] = useState(json.places);
-  const [colleguesNumber, setColleguesNumber] = useState(
+  const [data] = useState(json.places);
+  const [colleaguesNumber, setColleaguesNumber] = useState(
     json.places.reduce(
-      (allNumbers, place) => [
-        ...allNumbers,
-        { id: place.id, colleguesNumber: 0 },
-      ],
-      []
+      (allNumbers, place) => ({
+          ...allNumbers,
+          [place.id]: 0,
+      }),
+      {}
     )
   );
 
   const handleClick = (params) => {
-    setColleguesNumber((prevState) => {
-      const index = prevState.findIndex((element) => element.id === params.id);
-      const clone = [...prevState];
-      clone[index] = { id: params.id, colleguesNumber: 1 };
-      return clone;
-    });
+    setColleaguesNumber((prevState) => ({
+      ...prevState,
+      [params.id]: prevState[params.id] + 1,
+    }));
   };
   const columns = [
     {
@@ -55,9 +53,7 @@ export default function Home() {
       field: "colleguesNumber",
       flex: 1,
       headerName: "Kolegų skaičius",
-      renderCell: (params) =>
-        colleguesNumber.find((current) => current.id === params.id)
-          .colleguesNumber,
+      renderCell: (params) => colleaguesNumber[params.id],
     },
     {
       field: "actions",
