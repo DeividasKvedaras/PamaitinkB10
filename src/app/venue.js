@@ -7,6 +7,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { Rating } from "@mui/material";
 import { purple } from "@mui/material/colors";
+import PlaceIcon from "@mui/icons-material/Place";
 
 export default function Venue({ params }) {
   const [open, setOpen] = React.useState(false);
@@ -35,17 +36,31 @@ export default function Venue({ params }) {
       >
         <DialogTitle id="alert-dialog-title">{params.row.name}</DialogTitle>
         <DialogContent>
-          <DialogContentText id="alert-dialog-description">
+          <DialogContentText
+            id="alert-dialog-address"
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <PlaceIcon sx={{ color: "purple" }} />
+            {params.row.address}
+          </DialogContentText>
+          <DialogContentText
+            id="alert-dialog-description"
+            sx={{ padding: "15px 15px 15px 0" }}
+          >
             {params.row.short_description}
           </DialogContentText>
-          <Rating
-            name="simple-controlled"
-            value={value}
-            onChange={(event, newValue) => {
-              setValue(newValue);
-            }}
-            sx={{ padding: '15px 15px 15px 0'}}
-          ></Rating>
+          <DialogContentText>Įvertinkite {params.row.name}</DialogContentText>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <Rating
+              name="simple-controlled"
+              value={value}
+              onChange={(event, newValue) => {
+                setValue(newValue);
+              }}
+              sx={{ padding: "15px 15px 15px 0" }}
+            ></Rating>
+            <Button sx={{ color: "purple" }}>Išsaugoti</Button>
+          </div>
         </DialogContent>
         <DialogActions></DialogActions>
       </Dialog>
