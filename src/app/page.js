@@ -112,7 +112,7 @@ export default function Home() {
           src="/logotipas.webp"
           width={260}
         />
-        <h1>PamaitinkB10</h1>
+        <h1 className={styles.title}>PamaitinkB10</h1>
         <DataGrid autoHeight columns={columns} rows={data}></DataGrid>
       </div>
     </main>
