@@ -77,7 +77,6 @@ export default function Home() {
             {colleaguesNumber[params.id].chosen ? (
               <div className={styles.button}>
                 <Image
-                  alt="logo"
                   height={20}
                   src="/racoon-pedro.gif"
                   className={styles.pedro}
@@ -106,7 +105,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <Image alt="logo" height={500} src="/logotipas.webp" width={500} />
+        <Image
+          alt="logo"
+          className={styles.logo}
+          height={260}
+          src="/logotipas.webp"
+          width={260}
+        />
         <h1>PamaitinkB10</h1>
         <DataGrid autoHeight columns={columns} rows={data}></DataGrid>
       </div>

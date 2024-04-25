@@ -10,3 +10,8 @@
 .button {
     position: relative;
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
