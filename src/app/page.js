@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import json from "../filteredRestaurants.json";
 
@@ -11,6 +11,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { Button } from "@mui/material";
 
 import { purple } from "@mui/material/colors";
+import Venue from "@/app/venue";
 
 export default function Home() {
   const [data] = useState(json);
@@ -95,11 +96,7 @@ export default function Home() {
       field: "actions1",
       flex: 1,
       headerName: "",
-      renderCell: () => (
-        <Button color="secondary" variant="outlined">
-          Plačiau
-        </Button>
-      ),
+      renderCell: (params) => <Venue params={params} />,
     },
   ];
   return (
