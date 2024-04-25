@@ -9,6 +9,8 @@ import AddCircleIcon from "@mui/icons-material/AddCircle";
 import { DataGrid } from "@mui/x-data-grid";
 import { Button } from "@mui/material";
 
+import { purple } from '@mui/material/colors';
+
 export default function Home() {
   const [data] = useState(json.places);
   const [colleaguesNumber, setColleaguesNumber] = useState(
@@ -60,8 +62,18 @@ export default function Home() {
       flex: 1,
       headerName: "Pasirenku",
       renderCell: (params) => (
-        <Button onClick={() => handleClick(params)} variant="text">
-          <AddCircleIcon />
+        <Button onClick={() => handleClick(params)}>
+          <AddCircleIcon sx={{ color: purple[600] }}/>
+        </Button>
+      ),
+    },
+    {
+      field: "actions1",
+      flex: 1,
+      headerName: "",
+      renderCell: () => (
+        <Button color="secondary" variant="outlined">
+          Plačiau
         </Button>
       ),
     },
