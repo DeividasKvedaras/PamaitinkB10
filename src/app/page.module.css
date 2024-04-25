@@ -1,0 +1,12 @@
+.pedro {
+    border-radius: 10px;
+    left: 2px;
+    opacity: .8;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+}
+
+.button {
+    position: relative;
+}

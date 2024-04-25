@@ -85,7 +85,16 @@ export default function Home() {
             variant="text"
           >
             {colleaguesNumber[params.id].chosen ? (
-              <RemoveCircle sx={{ color: purple[600] }} />
+              <div className={styles.button}>
+                <Image
+                  alt="logo"
+                  height={20}
+                  src="/racoon-pedro.gif"
+                  className={styles.pedro}
+                  width={20}
+                />
+                <RemoveCircle sx={{ color: purple[600] }} />
+              </div>
             ) : (
               <AddCircle sx={!disabled && { color: purple[600] }} />
             )}
