@@ -34,12 +34,7 @@
     },
     {
       "id": 2,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6804223,
         "longitude": 25.2743503
@@ -66,12 +61,7 @@
     },
     {
       "id": 3,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6800801,
         "longitude": 25.2769546
@@ -98,12 +88,7 @@
     },
     {
       "id": 4,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6800247,
         "longitude": 25.2771275
@@ -129,12 +114,7 @@
     },
     {
       "id": 5,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6808227,
         "longitude": 25.2732879
@@ -160,12 +140,7 @@
     },
     {
       "id": 6,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.680818099999996,
         "longitude": 25.2732745
@@ -279,12 +254,7 @@
     },
     {
       "id": 10,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6792636,
         "longitude": 25.277316
@@ -310,12 +280,7 @@
     },
     {
       "id": 11,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.680315799999995,
         "longitude": 25.277827700000003
@@ -396,12 +361,7 @@
     },
     {
       "id": 14,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.68036,
         "longitude": 25.277925
@@ -416,12 +376,7 @@
     },
     {
       "id": 15,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.678864600000004,
         "longitude": 25.277458
@@ -517,12 +472,7 @@
     },
     {
       "id": 18,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
       "location": {
         "latitude": 54.6811835,
         "longitude": 25.272274799999998

@@ -10,7 +10,7 @@ import RemoveCircle from "@mui/icons-material/RemoveCircle";
 import { DataGrid } from "@mui/x-data-grid";
 import { Button } from "@mui/material";
 
-import { purple } from '@mui/material/colors';
+import { purple } from "@mui/material/colors";
 
 export default function Home() {
   const [data] = useState(json.places);
@@ -18,14 +18,14 @@ export default function Home() {
   const [colleaguesNumber, setColleaguesNumber] = useState(
     json.places.reduce(
       (allNumbers, place) => ({
-          ...allNumbers,
-          [place.id]: {
-            colleaguesNumber: 0,
-            chosen: false,
-          },
+        ...allNumbers,
+        [place.id]: {
+          colleaguesNumber: 0,
+          chosen: false,
+        },
       }),
-      {}
-    )
+      {},
+    ),
   );
 
   const handleClick = (params) => {
@@ -33,8 +33,14 @@ export default function Home() {
     setColleaguesNumber((prevState) => ({
       ...prevState,
       [params.id]: prevState[params.id].chosen
-        ? { colleaguesNumber: prevState[params.id].colleaguesNumber - 1, chosen: false }
-        : { colleaguesNumber: prevState[params.id].colleaguesNumber + 1, chosen: true },
+        ? {
+            colleaguesNumber: prevState[params.id].colleaguesNumber - 1,
+            chosen: false,
+          }
+        : {
+            colleaguesNumber: prevState[params.id].colleaguesNumber + 1,
+            chosen: true,
+          },
     }));
   };
   const columns = [
@@ -73,11 +79,16 @@ export default function Home() {
         const disabled = !colleaguesNumber[params.id].chosen && hasChosen;
 
         return (
-          <Button disabled={ disabled } onClick={() => handleClick(params)} variant="text">
-            { colleaguesNumber[params.id].chosen
-              ? <RemoveCircle sx={{ color: purple[600] }} />
-              : <AddCircle sx={!disabled && { color: purple[600] }} />
-            }
+          <Button
+            disabled={disabled}
+            onClick={() => handleClick(params)}
+            variant="text"
+          >
+            {colleaguesNumber[params.id].chosen ? (
+              <RemoveCircle sx={{ color: purple[600] }} />
+            ) : (
+              <AddCircle sx={!disabled && { color: purple[600] }} />
+            )}
           </Button>
         );
       },
