@@ -107,12 +107,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <Image
-          alt="logo"
-          height={500}
-          src="/logotipas.webp"
-          width={500}
-        ></Image>
+        <Image alt="logo" height={500} src="/logotipas.webp" width={500} />
         <h1>PamaitinkB10</h1>
         <DataGrid autoHeight columns={columns} rows={data}></DataGrid>
       </div>
