@@ -5,9 +5,12 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+import { Rating } from "@mui/material";
+import { purple } from "@mui/material/colors";
 
 export default function Venue({ params }) {
   const [open, setOpen] = React.useState(false);
+  const [value, setValue] = React.useState(2);
 
   console.log(params);
 
@@ -21,7 +24,7 @@ export default function Venue({ params }) {
 
   return (
     <React.Fragment>
-      <Button variant="text" onClick={handleClickOpen}>
+      <Button sx={{ color: "purple" }} variant="text" onClick={handleClickOpen}>
         Plačiau
       </Button>
       <Dialog
@@ -35,13 +38,16 @@ export default function Venue({ params }) {
           <DialogContentText id="alert-dialog-description">
             {params.row.short_description}
           </DialogContentText>
+          <Rating
+            name="simple-controlled"
+            value={value}
+            onChange={(event, newValue) => {
+              setValue(newValue);
+            }}
+            sx={{ padding: '15px 15px 15px 0'}}
+          ></Rating>
         </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Disagree</Button>
-          <Button onClick={handleClose} autoFocus>
-            Agree
-          </Button>
-        </DialogActions>
+        <DialogActions></DialogActions>
       </Dialog>
     </React.Fragment>
   );

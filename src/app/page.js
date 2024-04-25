@@ -88,6 +88,7 @@ export default function Home() {
             {colleaguesNumber[params.id].chosen ? (
               <div className={styles.button}>
                 <Image
+                  alt="gif"
                   height={20}
                   src="/racoon-pedro.gif"
                   className={styles.pedro}
@@ -120,7 +121,7 @@ export default function Home() {
           width={260}
         />
         <h1 className={styles.title}>PamaitinkB10</h1>
-        <DataGrid autoHeight columns={columns} rows={data}></DataGrid>
+        <DataGrid autoHeight rowSelection={false} columns={columns} rows={data}></DataGrid>
       </div>
     </main>
   );
