@@ -57,6 +57,16 @@ export default function Home() {
       valueGetter: (value) => value?.score || "-",
     },
     {
+      field: "distance",
+      flex: 1,
+      headerName: "Atstumas",
+    },
+    {
+      field: "duration",
+      flex: 1,
+      headerName: "Kelionės trukmė",
+    },
+    {
       field: "colleguesNumber",
       flex: 1,
       headerName: "Kolegų skaičius",
