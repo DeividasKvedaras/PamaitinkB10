@@ -1,95 +1,87 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import json from "../db.json";
+
+import styles from "./page.module.css";
+
+import AddCircleIcon from "@mui/icons-material/AddCircle";
+import { DataGrid } from "@mui/x-data-grid";
+import { Button } from "@mui/material";
 
 export default function Home() {
+  const [data, setData] = useState(json.places);
+  const [colleguesNumber, setColleguesNumber] = useState(
+    json.places.reduce(
+      (allNumbers, place) => [
+        ...allNumbers,
+        { id: place.id, colleguesNumber: 0 },
+      ],
+      []
+    )
+  );
+
+  const handleClick = (params) => {
+    setColleguesNumber((prevState) => {
+      const index = prevState.findIndex((element) => element.id === params.id);
+      const clone = [...prevState];
+      clone[index] = { id: params.id, colleguesNumber: 1 };
+      return clone;
+    });
+  };
+  const columns = [
+    {
+      field: "displayName",
+      flex: 1,
+      headerName: "Pavadinimas",
+      valueGetter: (params) => params.text,
+    },
+    {
+      field: "distance",
+      flex: 1,
+      headerName: "Atstumas",
+    },
+    {
+      field: "priceLevel",
+      flex: 1,
+      headerName: "Kaina",
+    },
+    {
+      field: "rating",
+      flex: 1,
+      headerName: "Įvertinimas",
+    },
+    {
+      field: "colleguesNumber",
+      flex: 1,
+      headerName: "Kolegų skaičius",
+      renderCell: (params) =>
+        colleguesNumber.find((current) => current.id === params.id)
+          .colleguesNumber,
+    },
+    {
+      field: "actions",
+      flex: 1,
+      headerName: "Pasirenku",
+      renderCell: (params) => (
+        <Button onClick={() => handleClick(params)} variant="text">
+          <AddCircleIcon />
+        </Button>
+      ),
+    },
+  ];
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
       <div className={styles.center}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          alt="logo"
+          height={500}
+          src="/logotipas.webp"
+          width={500}
+        ></Image>
+        <h1>PamaitinkB10</h1>
+        <DataGrid autoHeight columns={columns} rows={data}></DataGrid>
       </div>
     </main>
-  )
+  );
 }
