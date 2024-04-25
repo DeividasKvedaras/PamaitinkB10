@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import json from "../db.json";
+import json from "../filteredRestaurants.json";
 
 import styles from "./page.module.css";
 
@@ -13,13 +13,13 @@ import { Button } from "@mui/material";
 import { purple } from "@mui/material/colors";
 
 export default function Home() {
-  const [data] = useState(json.places);
+  const [data] = useState(json);
   const [hasChosen, setHasChosen] = useState(false);
   const [colleaguesNumber, setColleaguesNumber] = useState(
-    json.places.reduce(
-      (allNumbers, place) => ({
+    json.reduce(
+      (allNumbers, venue) => ({
         ...allNumbers,
-        [place.id]: {
+        [venue.id]: {
           colleaguesNumber: 0,
           chosen: false,
         },
@@ -45,25 +45,15 @@ export default function Home() {
   };
   const columns = [
     {
-      field: "displayName",
+      field: "name",
       flex: 1,
       headerName: "Pavadinimas",
-      valueGetter: (params) => params.text,
-    },
-    {
-      field: "distance",
-      flex: 1,
-      headerName: "Atstumas",
-    },
-    {
-      field: "priceLevel",
-      flex: 1,
-      headerName: "Kaina",
     },
     {
       field: "rating",
       flex: 1,
       headerName: "Įvertinimas",
+      valueGetter: (value) => value?.score || "-",
     },
     {
       field: "colleguesNumber",
