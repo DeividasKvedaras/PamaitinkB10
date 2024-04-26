@@ -8,8 +8,9 @@ import styles from "./page.module.css";
 import AddCircle from "@mui/icons-material/AddCircle";
 import RemoveCircle from "@mui/icons-material/RemoveCircle";
 import { DataGrid } from "@mui/x-data-grid";
-import { Button } from "@mui/material";
+import { Button, TextField, InputAdornment } from "@mui/material";
 import { Rating } from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 import { purple } from "@mui/material/colors";
 import Venue from "@/app/venue";
@@ -63,12 +64,17 @@ export default function Home() {
       flex: 1,
       headerName: "LD Įvertinimas",
       renderCell: () => {
-      return (<Rating name="simple-controlle"
-      value={value}
-      readOnly
-      onChange={(event, newValue) => {
-        setValue(newValue);}}
-      />)},
+        return (
+          <Rating
+            name="simple-controlle"
+            value={value}
+            readOnly
+            onChange={(event, newValue) => {
+              setValue(newValue);
+            }}
+          />
+        );
+      },
     },
     {
       field: "distance",
@@ -79,7 +85,7 @@ export default function Home() {
       field: "duration",
       flex: 1,
       headerName: "Kelionės trukmė",
-      valueFormatter: (value) => `${value} min.`
+      valueFormatter: (value) => `${value} min.`,
     },
     {
       field: "colleguesNumber",
@@ -136,7 +142,34 @@ export default function Home() {
           width={260}
         />
         <h1 className={styles.title}>PamaitinkB10</h1>
-        <DataGrid autoHeight rowSelection={false} columns={columns} rows={data} sx={{ background: "white"}}></DataGrid>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingBottom: "24px",
+          }}
+        >
+          <TextField
+            label="Ką šiandien norėtumėte valgyti?"
+            id="standard-adornment"
+            color='secondary'
+            InputProps={{
+              endAdornment: (
+                <InputAdornment position="end">
+                  <SearchIcon />
+                </InputAdornment>
+              ),
+            }}
+            sx={{ width: "450px" }}
+          />
+        </div>
+        <DataGrid
+          autoHeight
+          rowSelection={false}
+          columns={columns}
+          rows={data}
+          sx={{ background: "white" }}
+        ></DataGrid>
       </div>
     </main>
   );
