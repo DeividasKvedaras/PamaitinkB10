@@ -59,7 +59,7 @@ export default function Venue({ params }) {
               }}
               sx={{ padding: "15px 15px 15px 0" }}
             ></Rating>
-            <Button sx={{ color: "purple" }}>Išsaugoti</Button>
+            <Button sx={{ color: "purple" }} onClick={handleClose}>Išsaugoti</Button>
           </div>
         </DialogContent>
         <DialogActions></DialogActions>
