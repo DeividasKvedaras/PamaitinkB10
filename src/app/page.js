@@ -47,7 +47,6 @@ export default function Home() {
       const items = venue.menu
         .map((menuItem) => menuItem.name)
         .filter((item) => item.includes(searchTerm));
-      console.log(items);
       return items.length;
     });
 
