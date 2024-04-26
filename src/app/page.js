@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import json from "../filteredRestaurants.json";
+import json from "../mergedMenu.json";
 
 import styles from "./page.module.css";
 
@@ -49,7 +49,7 @@ export default function Home() {
   const columns = [
     {
       field: "name",
-      flex: 1,
+      flex: 2,
       headerName: "Pavadinimas",
     },
     {
@@ -79,6 +79,7 @@ export default function Home() {
       field: "duration",
       flex: 1,
       headerName: "Kelionės trukmė",
+      valueFormatter: (value) => `${value} min.`
     },
     {
       field: "colleguesNumber",

@@ -18,7 +18,7 @@
       "kebabai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Totorių g. 24",
@@ -39,7 +39,7 @@
       "azijietiška"
     ],
     "distance": "0.9 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Algirdo g. 5 -2",
@@ -59,7 +59,7 @@
       "koldūnai"
     ],
     "distance": "0.5 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Dominikonų g. 6",
@@ -80,7 +80,7 @@
       "sušiai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "J.Basanaviciaus g. 3",
@@ -101,7 +101,7 @@
       "vegetariška"
     ],
     "distance": "0.1 km",
-    "duration": "1 min"
+    "duration": 1
   },
   {
     "address": "Vokiečių g. 9",
@@ -122,7 +122,7 @@
       "burita"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Algirdo g. 8",
@@ -141,7 +141,7 @@
       "kiniška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins"
+    "duration": 7
   },
   {
     "address": "Vokiečių g. 14",
@@ -162,7 +162,7 @@
       "vegetariška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Vingrių g. 25A",
@@ -182,7 +182,7 @@
       "nepalietiška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins"
+    "duration": 7
   },
   {
     "address": "Švitrigailos g. 16",
@@ -203,7 +203,7 @@
       "gėrimai"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Tai virtuali vieta",
@@ -224,7 +224,7 @@
       "desertas"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Basanavičiaus g 19",
@@ -245,7 +245,7 @@
       "salotos"
     ],
     "distance": "0.3 km",
-    "duration": "6 mins"
+    "duration": 6
   },
   {
     "address": "Dominikonų gatvė 10",
@@ -266,7 +266,7 @@
       "kava"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "J. Basanavičiaus g. 37",
@@ -287,7 +287,7 @@
       "jūros gėrybės"
     ],
     "distance": "0.8 km",
-    "duration": "11 mins"
+    "duration": 11
   },
   {
     "address": "Vilniaus g. 35",
@@ -308,7 +308,7 @@
       "blynai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Mėsinių g. 4-3",
@@ -329,7 +329,7 @@
       "chačapuri"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins"
+    "duration": 10
   },
   {
     "address": "Vilniaus g. 33",
@@ -350,7 +350,7 @@
       "pica"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Švitrigailos g. 11A",
@@ -371,7 +371,7 @@
       "libanietiška"
     ],
     "distance": "0.9 km",
-    "duration": "13 mins"
+    "duration": 13
   },
   {
     "address": "Vilniaus g. 47 - 4",
@@ -392,7 +392,7 @@
       "BBQ"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins"
+    "duration": 7
   },
   {
     "address": "Liejyklos g. 8",
@@ -413,7 +413,7 @@
       "užkandžiai"
     ],
     "distance": "0.9 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Naugarduko g. 12",
@@ -434,7 +434,7 @@
       "Tailandietiška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins"
+    "duration": 7
   },
   {
     "address": "Pylimo g. 23",
@@ -454,7 +454,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins"
+    "duration": 4
   },
   {
     "address": "Algirdo g. 2b - 62",
@@ -475,7 +475,7 @@
       "vegetariška"
     ],
     "distance": "0.5 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Šv. Ignoto g. 12-1",
@@ -496,7 +496,7 @@
       "veganiška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "T. Ševčenkos g. 9-2",
@@ -512,7 +512,7 @@
       "sumuštiniai"
     ],
     "distance": "0.6 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Naugarduko g. 30a",
@@ -532,7 +532,7 @@
       "azijietiška"
     ],
     "distance": "0.9 km",
-    "duration": "13 mins"
+    "duration": 13
   },
   {
     "address": "J. Basanavičiaus g. 1",
@@ -553,7 +553,7 @@
       "mėsainiai"
     ],
     "distance": "0.2 km",
-    "duration": "2 mins"
+    "duration": 2
   },
   {
     "address": "Švitrigailos g. 4",
@@ -574,7 +574,7 @@
       "itališka"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Vokiečių g. 11",
@@ -595,7 +595,7 @@
       "desertas"
     ],
     "distance": "0.6 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Tai virtuali vieta",
@@ -615,7 +615,7 @@
       "japoniška"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Trakų g. 7-10 ",
@@ -635,7 +635,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins"
+    "duration": 4
   },
   {
     "address": "Tai virtuali vieta",
@@ -655,7 +655,7 @@
       "makaronai"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Algirdo g. 28",
@@ -676,7 +676,7 @@
       "vegetariška"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins"
+    "duration": 12
   },
   {
     "address": "Pylimo g. 27",
@@ -691,7 +691,7 @@
       "Indiška"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins"
+    "duration": 6
   },
   {
     "address": "Trakų g. 16",
@@ -711,7 +711,7 @@
       "kebabai"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins"
+    "duration": 6
   },
   {
     "address": "Pylimo g. 25",
@@ -732,7 +732,7 @@
       "grill"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins"
+    "duration": 6
   },
   {
     "address": "Trakų g. 18",
@@ -753,7 +753,7 @@
       "salotos"
     ],
     "distance": "0.5 km",
-    "duration": "6 mins"
+    "duration": 6
   },
   {
     "address": "Basanavičiaus g. 3",
@@ -773,7 +773,7 @@
       "sriubos"
     ],
     "distance": "0.1 km",
-    "duration": "1 min"
+    "duration": 1
   },
   {
     "address": "Mėsinių g. 4",
@@ -794,7 +794,7 @@
       "žuvis"
     ],
     "distance": "0.8 km",
-    "duration": "11 mins"
+    "duration": 11
   },
   {
     "address": "Vokiečių g. 11",
@@ -815,7 +815,7 @@
       "fine-dining"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Palangos g. 2",
@@ -836,7 +836,7 @@
       "japoniška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins"
+    "duration": 7
   },
   {
     "address": "Vokiečių g. 9",
@@ -857,7 +857,7 @@
       "pusryčiai"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Algirdo g. 17",
@@ -878,7 +878,7 @@
       "užkandžiai"
     ],
     "distance": "0.5 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "Mindaugo g. 11",
@@ -899,7 +899,7 @@
       "sriubos"
     ],
     "distance": "0.6 km",
-    "duration": "10 mins"
+    "duration": 10
   },
   {
     "address": "Vilniaus g. 18",
@@ -920,7 +920,7 @@
       "gėrimai"
     ],
     "distance": "0.9 km",
-    "duration": "11 mins"
+    "duration": 11
   },
   {
     "address": "Vingrių g.11-4",
@@ -940,7 +940,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins"
+    "duration": 4
   },
   {
     "address": "Vokiečių g. 7",
@@ -961,7 +961,7 @@
       "azijietiška"
     ],
     "distance": "0.7 km",
-    "duration": "10 mins"
+    "duration": 10
   },
   {
     "address": "Trakų g. 2",
@@ -981,7 +981,7 @@
       "europietiška"
     ],
     "distance": "0.2 km",
-    "duration": "3 mins"
+    "duration": 3
   },
   {
     "address": "Vilniaus g. 39",
@@ -1001,7 +1001,7 @@
       "europietiška"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Vokiečių g. 8",
@@ -1022,7 +1022,7 @@
       "sumuštiniai"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins"
+    "duration": 10
   },
   {
     "address": "A. Smetonos g. 3-50",
@@ -1043,7 +1043,7 @@
       "jūros gėrybės"
     ],
     "distance": "1.0 km",
-    "duration": "13 mins"
+    "duration": 13
   },
   {
     "address": "Basanavičiaus g. 7",
@@ -1064,7 +1064,7 @@
       "burita"
     ],
     "distance": "73 m",
-    "duration": "1 min"
+    "duration": 1
   },
   {
     "address": "Vilniaus g. 33",
@@ -1085,7 +1085,7 @@
       "azijietiška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   },
   {
     "address": "  J. Basanavičius g. 9A",
@@ -1101,7 +1101,7 @@
       "japoniška"
     ],
     "distance": "11 m",
-    "duration": "1 min"
+    "duration": 1
   },
   {
     "address": "Trakų g. 2-2",
@@ -1122,7 +1122,7 @@
       "bento"
     ],
     "distance": "0.2 km",
-    "duration": "3 mins"
+    "duration": 3
   },
   {
     "address": "Vingrių g. 17",
@@ -1143,7 +1143,7 @@
       "korėjietiška"
     ],
     "distance": "0.3 km",
-    "duration": "5 mins"
+    "duration": 5
   },
   {
     "address": "Tai virtuali vieta",
@@ -1163,7 +1163,7 @@
       "sveika"
     ],
     "distance": "0.3 km",
-    "duration": "5 mins"
+    "duration": 5
   },
   {
     "address": "Islandijos g. 4",
@@ -1184,7 +1184,7 @@
       "užkandžiai"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins"
+    "duration": 10
   },
   {
     "address": "Vilniaus g. 39",
@@ -1200,7 +1200,7 @@
       "taco"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins"
+    "duration": 8
   },
   {
     "address": "Tai virtuali vieta",
@@ -1221,6 +1221,6 @@
       "japoniška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins"
+    "duration": 9
   }
 ]
