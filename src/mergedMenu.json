@@ -18,7 +18,7 @@
       "kebabai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Kebabai ir buritai",
@@ -271,7 +271,7 @@
       "azijietiška"
     ],
     "distance": "0.9 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "Populiariausi patiekalai",
@@ -743,7 +743,7 @@
       "koldūnai"
     ],
     "distance": "0.5 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -1276,7 +1276,7 @@
       "sušiai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -1849,7 +1849,7 @@
       "vegetariška"
     ],
     "distance": "0.1 km",
-    "duration": "1 min",
+    "duration": 1,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -2077,7 +2077,7 @@
       "burita"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -2383,7 +2383,7 @@
       "kiniška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins",
+    "duration": 7,
     "menu": [
       {
         "category": "Dienos pietūs",
@@ -2881,7 +2881,7 @@
       "vegetariška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Picos 33 cm",
@@ -3013,7 +3013,7 @@
       "nepalietiška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins",
+    "duration": 7,
     "menu": [
       {
         "category": "Užkandžiai",
@@ -3271,7 +3271,7 @@
       "gėrimai"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "PIZZA ~32 CM",
@@ -3439,7 +3439,7 @@
       "desertas"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "Karštieji patiekalai",
@@ -3722,7 +3722,7 @@
       "salotos"
     ],
     "distance": "0.3 km",
-    "duration": "6 mins",
+    "duration": 6,
     "menu": [
       {
         "category": "Dienos pietūs",
@@ -4155,7 +4155,7 @@
       "kava"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Pagrindiniai patiekalai",
@@ -4518,7 +4518,7 @@
       "jūros gėrybės"
     ],
     "distance": "0.8 km",
-    "duration": "11 mins",
+    "duration": 11,
     "menu": [
       {
         "category": "Įrankiai 🍴",
@@ -4776,7 +4776,7 @@
       "blynai"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Specialus pasiūlymas",
@@ -5614,7 +5614,7 @@
       "chačapuri"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins",
+    "duration": 10,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -5987,7 +5987,7 @@
       "pica"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Įrankiai 🍴",
@@ -6455,7 +6455,7 @@
       "libanietiška"
     ],
     "distance": "0.9 km",
-    "duration": "13 mins",
+    "duration": 13,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -6693,7 +6693,7 @@
       "BBQ"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins",
+    "duration": 7,
     "menu": [
       {
         "category": "Pitos",
@@ -7011,7 +7011,7 @@
       "užkandžiai"
     ],
     "distance": "0.9 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "Įrankiai🍴",
@@ -7048,7 +7048,7 @@
           },
           {
             "name": "Boneless viščiukas",
-            "desc": "Puikiai tiks ir vakarėliui ir vakarienei. Iškaulintas viščiukas (450g.), kukurūzo burbuolė, coleslaw salotos, romo - žolelių padažas, čiabata duona. Viščiuko paruošimas trunka apie 40 min",
+            "desc": "Puikiai tiks ir vakarėliui ir vakarienei. Iškaulintas viščiukas (450g.), kukurūzo burbuolė, coleslaw salotos, romo - žolelių padažas, čiabata duona. Viščiuko paruošimas trunka apie 40,
             "price": "€17.40\n(450 g, €37.78/kg)"
           }
         ]
@@ -7108,7 +7108,7 @@
         "items": [
           {
             "name": "Boneless viščiukas",
-            "desc": "Puikiai tiks ir vakarėliui ir vakarienei. Iškaulintas viščiukas (450g.), kukurūzo burbuolė, coleslaw salotos, romo - žolelių padažas, čiabata duona. Viščiuko paruošimas trunka apie 40 min",
+            "desc": "Puikiai tiks ir vakarėliui ir vakarienei. Iškaulintas viščiukas (450g.), kukurūzo burbuolė, coleslaw salotos, romo - žolelių padažas, čiabata duona. Viščiuko paruošimas trunka apie 40 min.",
             "price": "€17.40\n(450 g, €37.78/kg)"
           },
           {
@@ -7269,7 +7269,7 @@
       "Tailandietiška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins",
+    "duration": 7,
     "menu": []
   },
   {
@@ -7290,7 +7290,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins",
+    "duration": 4,
     "menu": [
       {
         "category": "Įrankiai🍴",
@@ -7533,7 +7533,7 @@
       "vegetariška"
     ],
     "distance": "0.5 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Įrankiai",
@@ -9146,7 +9146,7 @@
       "veganiška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Vienkartiniai įrankiai",
@@ -9299,7 +9299,7 @@
       "sumuštiniai"
     ],
     "distance": "0.6 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -9386,7 +9386,7 @@
       "azijietiška"
     ],
     "distance": "0.9 km",
-    "duration": "13 mins",
+    "duration": 13,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -9994,7 +9994,7 @@
       "mėsainiai"
     ],
     "distance": "0.2 km",
-    "duration": "2 mins",
+    "duration": 2,
     "menu": [
       {
         "category": "Sriuba",
@@ -10167,7 +10167,7 @@
       "itališka"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "Itališkos picos 32 cm",
@@ -11060,7 +11060,7 @@
       "desertas"
     ],
     "distance": "0.6 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Pavasario naujienos",
@@ -11712,7 +11712,7 @@
       "japoniška"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Užkandžiai",
@@ -11954,7 +11954,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins",
+    "duration": 4,
     "menu": [
       {
         "category": "🌟Special Offer🌟",
@@ -12196,7 +12196,7 @@
       "makaronai"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Macaroni & Cheese",
@@ -12314,7 +12314,7 @@
       "vegetariška"
     ],
     "distance": "0.8 km",
-    "duration": "12 mins",
+    "duration": 12,
     "menu": [
       {
         "category": "Įrankiai",
@@ -13941,7 +13941,7 @@
       "Indiška"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins",
+    "duration": 6,
     "menu": [
       {
         "category": "Įrankiai🍴",
@@ -14238,7 +14238,7 @@
       "kebabai"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins",
+    "duration": 6,
     "menu": [
       {
         "category": "Patiekalai lėkštėje",
@@ -14396,7 +14396,7 @@
       "grill"
     ],
     "distance": "0.4 km",
-    "duration": "6 mins",
+    "duration": 6,
     "menu": [
       {
         "category": "Suktinukai",
@@ -14854,7 +14854,7 @@
       "salotos"
     ],
     "distance": "0.5 km",
-    "duration": "6 mins",
+    "duration": 6,
     "menu": [
       {
         "category": "Užkandžiai",
@@ -15276,7 +15276,7 @@
       "sriubos"
     ],
     "distance": "0.1 km",
-    "duration": "1 min",
+    "duration": 1,
     "menu": [
       {
         "category": "Liulia kebabai",
@@ -15629,7 +15629,7 @@
       "žuvis"
     ],
     "distance": "0.8 km",
-    "duration": "11 mins",
+    "duration": 11,
     "menu": [
       {
         "category": "Dideli rinkiniai",
@@ -16102,7 +16102,7 @@
       "fine-dining"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Vienkartinių įrankių rinkinys",
@@ -16295,7 +16295,7 @@
       "japoniška"
     ],
     "distance": "0.5 km",
-    "duration": "7 mins",
+    "duration": 7,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -17298,7 +17298,7 @@
       "pusryčiai"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -17706,7 +17706,7 @@
       "užkandžiai"
     ],
     "distance": "0.5 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Užkandžiai",
@@ -18094,7 +18094,7 @@
       "sriubos"
     ],
     "distance": "0.6 km",
-    "duration": "10 mins",
+    "duration": 10,
     "menu": [
       {
         "category": "Vienkartiniai įrankiai",
@@ -18682,7 +18682,7 @@
       "gėrimai"
     ],
     "distance": "0.9 km",
-    "duration": "11 mins",
+    "duration": 11,
     "menu": [
       {
         "category": "Picos 30 cm",
@@ -18814,7 +18814,7 @@
       "azijietiška"
     ],
     "distance": "0.3 km",
-    "duration": "4 mins",
+    "duration": 4,
     "menu": [
       {
         "category": "Dienos pietūs",
@@ -19557,7 +19557,7 @@
       "azijietiška"
     ],
     "distance": "0.7 km",
-    "duration": "10 mins",
+    "duration": 10,
     "menu": [
       {
         "category": "Draugiški piniginei",
@@ -20344,7 +20344,7 @@
       "europietiška"
     ],
     "distance": "0.2 km",
-    "duration": "3 mins",
+    "duration": 3,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -20931,7 +20931,7 @@
       "europietiška"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -21519,7 +21519,7 @@
       "sumuštiniai"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins",
+    "duration": 10,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -22077,7 +22077,7 @@
       "jūros gėrybės"
     ],
     "distance": "1.0 km",
-    "duration": "13 mins",
+    "duration": 13,
     "menu": [
       {
         "category": "Pagrindiniai",
@@ -22225,7 +22225,7 @@
       "burita"
     ],
     "distance": "73 m",
-    "duration": "1 min",
+    "duration": 1,
     "menu": [
       {
         "category": "Burritos",
@@ -22458,7 +22458,7 @@
       "azijietiška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -22766,7 +22766,7 @@
       "japoniška"
     ],
     "distance": "11 m",
-    "duration": "1 min",
+    "duration": 1,
     "menu": [
       {
         "category": "Pietų meniu",
@@ -22949,7 +22949,7 @@
       "bento"
     ],
     "distance": "0.2 km",
-    "duration": "3 mins",
+    "duration": 3,
     "menu": [
       {
         "category": "Įrankiai",
@@ -23207,7 +23207,7 @@
       "korėjietiška"
     ],
     "distance": "0.3 km",
-    "duration": "5 mins",
+    "duration": 5,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -23374,7 +23374,7 @@
       "sveika"
     ],
     "distance": "0.3 km",
-    "duration": "5 mins",
+    "duration": 5,
     "menu": [
       {
         "category": "Wolt Specials",
@@ -23482,7 +23482,7 @@
       "užkandžiai"
     ],
     "distance": "0.8 km",
-    "duration": "10 mins",
+    "duration": 10,
     "menu": [
       {
         "category": "Karštieji patiekalai",
@@ -23705,7 +23705,7 @@
       "taco"
     ],
     "distance": "0.6 km",
-    "duration": "8 mins",
+    "duration": 8,
     "menu": [
       {
         "category": "Brunch",
@@ -23808,7 +23808,7 @@
       "japoniška"
     ],
     "distance": "0.7 km",
-    "duration": "9 mins",
+    "duration": 9,
     "menu": [
       {
         "category": "Wolt Specials",
