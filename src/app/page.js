@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import json from "../mergedMenu.json";
 
@@ -11,6 +11,11 @@ import { DataGrid } from "@mui/x-data-grid";
 import { Button, TextField, InputAdornment } from "@mui/material";
 import { Rating } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
+import venueMenu from "./venueMenu";
 
 import { purple } from "@mui/material/colors";
 import Venue from "@/app/venue";
@@ -18,9 +23,11 @@ import Venue from "@/app/venue";
 export default function Home() {
   const [hasChosen, setHasChosen] = useState(false);
   const [value, setValue] = useState(4);
-  const [searchTerm, setSearchTerm] = React.useState("");
-  const [filteredIds, setFilteredIds] = React.useState([]);
-  const [filteredData, setFilteredData] = React.useState(json);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredIds, setFilteredIds] = useState([]);
+  const [filteredData, setFilteredData] = useState(json);
+  const [open, setOpen] = useState(false);
+
   const [colleaguesNumber, setColleaguesNumber] = useState(
     json.reduce(
       (allNumbers, venue) => ({
@@ -34,7 +41,7 @@ export default function Home() {
     ),
   );
 
-  const [venueMenu, setVenueMenu] = React.useState(
+  const [venueMenu, setVenueMenu] = useState(
     json.map((venue) => ({
       id: venue.id,
       name: venue.name,
@@ -42,7 +49,7 @@ export default function Home() {
     })),
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     const filtered = venueMenu.filter((venue) => {
       const items = venue.menu
         .map((menuItem) => menuItem.name)
@@ -72,6 +79,11 @@ export default function Home() {
           },
     }));
   };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleClickMenu = () => {};
   const columns = [
     {
       field: "name",
@@ -79,8 +91,16 @@ export default function Home() {
       headerName: "Pavadinimas",
     },
     {
+      field: "actions3",
+      flex: 0.75,
+      headerName: "Meniu",
+      renderCell: (params) => {<venueMenu params={params}/>
+
+      },
+    },
+    {
       field: "rating",
-      flex: 1,
+      flex: 0.75,
       headerName: "Įvertinimas",
       valueGetter: (value) => value?.score || "-",
     },
@@ -103,7 +123,7 @@ export default function Home() {
     },
     {
       field: "distance",
-      flex: 1,
+      flex: 0.75,
       headerName: "Atstumas",
     },
     {
@@ -114,13 +134,13 @@ export default function Home() {
     },
     {
       field: "colleguesNumber",
-      flex: 1,
+      flex: 0.75,
       headerName: "Kolegų skaičius",
       renderCell: (params) => colleaguesNumber[params.id].colleaguesNumber,
     },
     {
       field: "actions",
-      flex: 1,
+      flex: 0.75,
       headerName: "Pasirenku",
       renderCell: (params) => {
         const disabled = !colleaguesNumber[params.id].chosen && hasChosen;

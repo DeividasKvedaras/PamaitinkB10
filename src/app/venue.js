@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -11,7 +11,7 @@ import PlaceIcon from "@mui/icons-material/Place";
 import { Link } from "@mui/material";
 
 export default function Venue({ params }) {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const [value, setValue] = React.useState(2);
 
   const handleClickOpen = () => {
