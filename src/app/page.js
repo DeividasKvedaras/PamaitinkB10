@@ -84,7 +84,12 @@ export default function Home() {
       field: "actions3",
       flex: 0.75,
       headerName: "Meniu",
-      renderCell: (params) => <VenueMenu params={params} />,
+      renderCell: (params) => (
+        <VenueMenu
+          params={params}
+          venueMenu={venueMenu.filter((venue) => params.id === venue.id)[0]}
+        />
+      ),
     },
     {
       field: "rating",

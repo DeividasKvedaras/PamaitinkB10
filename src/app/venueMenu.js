@@ -7,7 +7,9 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
 
-export default function VenueMenu({ params }) {
+import styles from "./venueMenu.module.css";
+
+export default function VenueMenu({ params, venueMenu }) {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -30,7 +32,19 @@ export default function VenueMenu({ params }) {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">{params.row.name}</DialogTitle>
-        <DialogContent></DialogContent>
+        <DialogContent>
+          <div className={styles.list}>
+            {venueMenu.menu.map((menu, index) => (
+              <React.Fragment key={`${venueMenu.name}-${index}`}>
+                <div className={styles.content}>
+                  <h3 className={styles.name}>{menu.name}</h3>
+                  <div className={styles.desc}>{menu.desc}</div>
+                </div>
+                <h2 className={styles.price}>{menu.price}</h2>
+              </React.Fragment>
+            ))}
+          </div>
+        </DialogContent>
         <DialogActions></DialogActions>
       </Dialog>
     </React.Fragment>

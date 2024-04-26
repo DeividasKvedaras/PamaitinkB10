@@ -1,0 +1,19 @@
+.list {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.content {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 36px;
+}
+
+.price {
+    border-bottom: 1px solid #ddd;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
