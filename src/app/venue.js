@@ -14,8 +14,6 @@ export default function Venue({ params }) {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState(2);
 
-  console.log(params);
-
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -23,8 +21,6 @@ export default function Venue({ params }) {
   const handleClose = () => {
     setOpen(false);
   };
-
-  const adresiukas = `Basanavičiaus g. 10 to ${params.row.address}, Vilnius`;
 
   return (
     <React.Fragment>

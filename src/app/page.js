@@ -16,9 +16,11 @@ import { purple } from "@mui/material/colors";
 import Venue from "@/app/venue";
 
 export default function Home() {
-  const [data] = useState(json);
   const [hasChosen, setHasChosen] = useState(false);
   const [value, setValue] = useState(4);
+  const [searchTerm, setSearchTerm] = React.useState("");
+  const [filteredIds, setFilteredIds] = React.useState([]);
+  const [filteredData, setFilteredData] = React.useState(json);
   const [colleaguesNumber, setColleaguesNumber] = useState(
     json.reduce(
       (allNumbers, venue) => ({
@@ -31,6 +33,30 @@ export default function Home() {
       {},
     ),
   );
+
+  const [venueMenu, setVenueMenu] = React.useState(
+    json.map((venue) => ({
+      id: venue.id,
+      name: venue.name,
+      menu: venue.menu.map((menuItem) => menuItem.items).flat(),
+    })),
+  );
+
+  React.useEffect(() => {
+    const filtered = venueMenu.filter((venue) => {
+      const items = venue.menu
+        .map((menuItem) => menuItem.name)
+        .filter((item) => item.includes(searchTerm));
+      console.log(items);
+      return items.length;
+    });
+
+    setFilteredIds(filtered.map((venue) => venue.id));
+  }, [searchTerm]);
+
+  React.useEffect(() => {
+    setFilteredData(json.filter((venue) => filteredIds.includes(venue.id)));
+  }, [filteredIds]);
 
   const handleClick = (params) => {
     setHasChosen((prevState) => !prevState);
@@ -152,7 +178,7 @@ export default function Home() {
           <TextField
             label="Ką šiandien norėtumėte valgyti?"
             id="standard-adornment"
-            color='secondary'
+            color="secondary"
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
@@ -160,14 +186,18 @@ export default function Home() {
                 </InputAdornment>
               ),
             }}
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
             sx={{ width: "450px" }}
+            value={searchTerm}
           />
         </div>
         <DataGrid
           autoHeight
           rowSelection={false}
           columns={columns}
-          rows={data}
+          rows={filteredData}
           sx={{ background: "white" }}
         ></DataGrid>
       </div>
