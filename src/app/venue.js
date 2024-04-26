@@ -8,6 +8,7 @@ import DialogTitle from "@mui/material/DialogTitle";
 import { Rating } from "@mui/material";
 import { purple } from "@mui/material/colors";
 import PlaceIcon from "@mui/icons-material/Place";
+import { Link } from "@mui/material";
 
 export default function Venue({ params }) {
   const [open, setOpen] = React.useState(false);
@@ -22,6 +23,8 @@ export default function Venue({ params }) {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const adresiukas = `Basanavičiaus g. 10 to ${params.row.address}, Vilnius`;
 
   return (
     <React.Fragment>
@@ -41,7 +44,13 @@ export default function Venue({ params }) {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <PlaceIcon sx={{ color: "purple" }} />
-            {params.row.address}
+            <Link
+              target="_blank"
+              href={`https://www.google.lt/maps/dir/J.+Basanavi%C4%8Diaus+g.+10,+Vilnius,+03224+Vilniaus+m.+sav./${params.row.address.replace(/ /g, "+")},+Vilnius`}
+            >
+              {" "}
+              {params.row.address}{" "}
+            </Link>
           </DialogContentText>
           <DialogContentText
             id="alert-dialog-description"
@@ -59,7 +68,9 @@ export default function Venue({ params }) {
               }}
               sx={{ padding: "15px 15px 15px 0" }}
             ></Rating>
-            <Button sx={{ color: "purple" }} onClick={handleClose}>Išsaugoti</Button>
+            <Button sx={{ color: "purple" }} onClick={handleClose}>
+              Išsaugoti
+            </Button>
           </div>
         </DialogContent>
         <DialogActions></DialogActions>
