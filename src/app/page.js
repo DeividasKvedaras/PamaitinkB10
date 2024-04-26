@@ -11,14 +11,10 @@ import { DataGrid } from "@mui/x-data-grid";
 import { Button, TextField, InputAdornment } from "@mui/material";
 import { Rating } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
-import Dialog from "@mui/material/Dialog";
-import DialogContent from "@mui/material/DialogContent";
-import DialogTitle from "@mui/material/DialogTitle";
-import venueMenu from "./venueMenu";
-
 import { purple } from "@mui/material/colors";
+
 import Venue from "@/app/venue";
+import VenueMenu from "@/app/venueMenu";
 
 export default function Home() {
   const [hasChosen, setHasChosen] = useState(false);
@@ -26,7 +22,6 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredIds, setFilteredIds] = useState([]);
   const [filteredData, setFilteredData] = useState(json);
-  const [open, setOpen] = useState(false);
 
   const [colleaguesNumber, setColleaguesNumber] = useState(
     json.reduce(
@@ -79,11 +74,6 @@ export default function Home() {
           },
     }));
   };
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-  const handleClickMenu = () => {};
   const columns = [
     {
       field: "name",
@@ -94,9 +84,7 @@ export default function Home() {
       field: "actions3",
       flex: 0.75,
       headerName: "Meniu",
-      renderCell: (params) => {<venueMenu params={params}/>
-
-      },
+      renderCell: (params) => <VenueMenu params={params} />,
     },
     {
       field: "rating",

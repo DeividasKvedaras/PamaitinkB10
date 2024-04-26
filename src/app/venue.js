@@ -6,7 +6,6 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { Rating } from "@mui/material";
-import { purple } from "@mui/material/colors";
 import PlaceIcon from "@mui/icons-material/Place";
 import { Link } from "@mui/material";
 
