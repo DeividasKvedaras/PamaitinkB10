@@ -210,8 +210,13 @@ export default function Home() {
           rowSelection={false}
           columns={columns}
           rows={filteredData}
-          sx={{ background: "white" }}
-        ></DataGrid>
+          sx={{
+            background: "white",
+            "& .MuiDataGrid-cell": {
+              overflow: "visible",
+            },
+          }}
+        />
       </div>
     </main>
   );
